@@ -1,6 +1,6 @@
 /* Global Variables */
-let baseURL = 'https://api.openweathermap.org/data/2.5/weather?zip=';
-let ApiKey = "847cf16404a6d38402c05e41ae69d62b";
+const baseURL = 'https://api.openweathermap.org/data/2.5/weather?zip=';
+const ApiKey = "847cf16404a6d38402c05e41ae69d62b&units=metric"; // Celcuis  
 
 // Create a new date instance dynamically with JS
 let d = new Date();
